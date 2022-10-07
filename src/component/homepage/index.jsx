@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "./index.css";
+import {Link} from 'react-router-dom'
 
 const HomePage = () => {
   const menu = useRef();
@@ -9,13 +10,13 @@ const HomePage = () => {
   return (
     <>
       <ul className="menu" ref={menu}>
-        <div class="toggle" onClick={handleClick}>
+        <div className="toggle" onClick={handleClick}>
           <ion-icon name="add-outline"></ion-icon>
         </div>
         <li style={{ "--i": 1, "--clr": "#fee809" }}>
-          <a href="#">
+          <Link to="/smoke">
             <ion-icon name="person-outline"></ion-icon>
-          </a>
+          </Link>
         </li>
         <li style={{ "--i": 2, "--clr": "#04fc43" }}>
           <a href="#">
