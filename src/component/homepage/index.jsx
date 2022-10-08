@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./index.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const menu = useRef();
@@ -9,6 +9,17 @@ const HomePage = () => {
   };
   return (
     <>
+      <div className="glowing" id="firstGlowing">
+        <span style={{ "--k": 1 }}></span>
+        <span style={{ "--k": 2 }}></span>
+        <span style={{ "--k": 3 }}></span>
+      </div>
+      <div className="glowing">
+        <span style={{ "--k": 1 }}></span>
+        <span style={{ "--k": 2 }}></span>
+        <span style={{ "--k": 3 }}></span>
+      </div>
+
       <ul className="menu" ref={menu}>
         <div className="toggle" onClick={handleClick}>
           <ion-icon name="add-outline"></ion-icon>
@@ -49,6 +60,16 @@ const HomePage = () => {
           </a>
         </li>
       </ul>
+      <div className="glowing">
+        <span style={{ "--k": 1 }}></span>
+        <span style={{ "--k": 2 }}></span>
+        <span style={{ "--k": 3 }}></span>
+      </div>
+      <div className="glowing">
+        <span style={{ "--k": 1 }}></span>
+        <span style={{ "--k": 2 }}></span>
+        <span style={{ "--k": 3 }}></span>
+      </div>
     </>
   );
 };

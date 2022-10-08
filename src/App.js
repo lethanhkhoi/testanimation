@@ -5,7 +5,7 @@ import HomePage from "./component/homepage";
 import Smoke from "./component/smoke";
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <BrowserRouter>
         <Routes>
           <Route index element={<HomePage />}></Route>
