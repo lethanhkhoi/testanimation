@@ -8,7 +8,7 @@ const HomePage = () => {
     menu.current.classList.toggle("active");
   };
   return (
-    <>
+    <div className="homepage">
       <div className="glowing" id="firstGlowing">
         <span style={{ "--k": 1 }}></span>
         <span style={{ "--k": 2 }}></span>
@@ -30,9 +30,9 @@ const HomePage = () => {
           </Link>
         </li>
         <li style={{ "--i": 2, "--clr": "#04fc43" }}>
-          <a href="#">
+          <Link to="/background">
             <ion-icon name="cloud-outline"></ion-icon>
-          </a>
+          </Link>
         </li>
         <li style={{ "--i": 3, "--clr": "#fe00f1" }}>
           <a href="#">
@@ -70,7 +70,7 @@ const HomePage = () => {
         <span style={{ "--k": 2 }}></span>
         <span style={{ "--k": 3 }}></span>
       </div>
-    </>
+    </div>
   );
 };
 export default HomePage;

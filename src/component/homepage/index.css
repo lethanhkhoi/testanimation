@@ -1,3 +1,11 @@
+/* .homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+} */
+
 .menu {
   position: relative;
   display: flex;
@@ -80,19 +88,19 @@
     margin-top: -600px!important;
 } */
 
-.glowing:nth-child(even){
-    transform-origin: left;
+.glowing:nth-child(even) {
+  transform-origin: left;
 }
 
-@keyframes colorChange{
-    0%{
-        filter: hue-rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100%{
-        filter: hue-rotate(360deg);
-        transform: rotate(360deg);
-    }
+@keyframes colorChange {
+  0% {
+    filter: hue-rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 .glowing span {
