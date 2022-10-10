@@ -3,7 +3,6 @@ import Sidebar from "../sidebar/Sidebar";
 import "./index.css";
 const Smoke = () => {
   const text = useRef();
-  console.log("Alo");
   useEffect(() => {
     text.current.innerHTML = text.current.textContent.replace(
       /\S/g,

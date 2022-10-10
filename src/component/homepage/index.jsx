@@ -30,7 +30,7 @@ const HomePage = () => {
           </Link>
         </li>
         <li style={{ "--i": 2, "--clr": "#04fc43" }}>
-          <Link to="/background">
+          <Link to="/card">
             <ion-icon name="cloud-outline"></ion-icon>
           </Link>
         </li>
