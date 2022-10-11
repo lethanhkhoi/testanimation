@@ -62,7 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: rotate(calc(360deg / -7 * var(--i)));
+  transform: rotate(calc((360deg) / -5 * var(--i)));
   transition: all 0.2s ease;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .menu.active li {
-  transform: rotate(calc(360deg / 7 * var(--i))) translateX(0px);
+  transform: rotate(calc((360deg) / 5 * var(--i))) translateX(10px);
 }
 
 .glowing {

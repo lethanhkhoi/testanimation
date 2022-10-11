@@ -4,6 +4,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import HomePage from "./component/homepage";
 import Smoke from "./component/smoke";
 import CardEffect from "./component/card";
+import ImageEffect from "./component/image";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,8 @@ function App() {
           <Route index element={<HomePage />}></Route>
           <Route path="/smoke" element={<Smoke />}></Route>
           <Route path="/card" element={<CardEffect />}></Route>
+          <Route path="/image" element={<ImageEffect />}></Route>
+
         </Routes>
       </BrowserRouter>
     </div>

@@ -49,7 +49,7 @@ const HomePage = () => {
             <ion-icon name="alarm-outline"></ion-icon>
           </a>
         </li>
-        <li style={{ "--i": "6", "--clr": "#a529ff" }}>
+        {/* <li style={{ "--i": "6", "--clr": "#a529ff" }}>
           <a href="#">
             <ion-icon name="airplane-outline"></ion-icon>
           </a>
@@ -58,7 +58,7 @@ const HomePage = () => {
           <a href="#">
             <ion-icon name="camera-outline"></ion-icon>
           </a>
-        </li>
+        </li> */}
       </ul>
       <div className="glowing">
         <span style={{ "--k": 1 }}></span>
