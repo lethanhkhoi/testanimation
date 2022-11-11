@@ -8,7 +8,7 @@ const HomePage = () => {
     menu.current.classList.toggle("active");
   };
   return (
-    <div className="homepage">
+    <div className="homepage conent-center">
       <div className="glowing" id="firstGlowing">
         <span style={{ "--k": 1 }}></span>
         <span style={{ "--k": 2 }}></span>
@@ -35,14 +35,14 @@ const HomePage = () => {
           </Link>
         </li>
         <li style={{ "--i": 3, "--clr": "#fe00f1" }}>
-          <a href="#">
+          <Link to="/heart">
             <ion-icon name="bookmark-outline"></ion-icon>
-          </a>
+          </Link>
         </li>
         <li style={{ "--i": 4, "--clr": "#00b0fe" }}>
-          <a href="#">
+          <Link to="/galaxy">
             <ion-icon name="balloon-outline"></ion-icon>
-          </a>
+          </Link>
         </li>
         <li style={{ "--i": 5, "--clr": "#fea600" }}>
           <a href="#">
